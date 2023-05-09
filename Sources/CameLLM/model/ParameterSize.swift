@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum ParameterSize: Codable {
+public enum ParameterSize: Codable, Equatable {
   case millions(Decimal)
   case billions(Decimal)
 }
