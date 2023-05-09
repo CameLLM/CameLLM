@@ -9,9 +9,9 @@ import Foundation
 
 open class ModelCard {
   // The number of parameters the model was trained on.
-  public let parameters: Int64
+  public let parameters: ParameterSize
 
-  public init(parameters: Int64) {
+  public init(parameters: ParameterSize) {
     self.parameters = parameters
   }
 }

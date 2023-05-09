@@ -1,11 +1,10 @@
-// swift-tools-version: 5.5
+// swift-tools-version: 5.7.1
 import PackageDescription
 
 let package = Package(
   name: "CameLLM",
   platforms: [
-    .macOS(.v10_15),
-    .iOS(.v13),
+    .macOS(.v13)
   ],
   products: [
     .library(
